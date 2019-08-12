@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="CustomUDAF,HelloWord,HelloWorld,helloworld,practice,sparkcore,sparkcore (1) (com.atguigu),sparkcore-cdh,sparkcorecdn,sparkcoretest,sparkcorewordcount,sparksql,statfulwordcount,stream-kafka,udf,wordcount,wordcount (1) (com.admin),wordcount (1) (com.atguigu)" />
+  </component>
+</project>

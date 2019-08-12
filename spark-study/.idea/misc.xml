@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../spark/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/sparkcore/pom.xml" />
+        <option value="$PROJECT_DIR$/sparkcore/wordcount/pom.xml" />
+        <option value="$PROJECT_DIR$/../spark/pom.xml" />
+        <option value="$PROJECT_DIR$/../spark/sparkGraphX/helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/../spark/sparkGraphX/pom.xml" />
+        <option value="$PROJECT_DIR$/../spark/sparkcore/pom.xml" />
+        <option value="$PROJECT_DIR$/../spark/sparkcore/wordcount/pom.xml" />
+        <option value="$PROJECT_DIR$/../spark/sparksql/CustomUDAF/pom.xml" />
+        <option value="$PROJECT_DIR$/../spark/sparksql/HelloWord/pom.xml" />
+        <option value="$PROJECT_DIR$/../spark/sparksql/pom.xml" />
+        <option value="$PROJECT_DIR$/../spark/sparksql/practice/pom.xml" />
+        <option value="$PROJECT_DIR$/../spark/sparksql/udf/pom.xml" />
+        <option value="$PROJECT_DIR$/../spark/sparkstreaming/pom.xml" />
+        <option value="$PROJECT_DIR$/../spark/sparkstreaming/statfulwordcount/pom.xml" />
+        <option value="$PROJECT_DIR$/../spark/sparkstreaming/stream-kafka/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
