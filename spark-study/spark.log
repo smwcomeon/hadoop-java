@@ -1,0 +1,308 @@
+2019-08-02 09:47:17,968   INFO --- [main]  org.apache.spark.SparkContext(line:54) : Running Spark version 2.1.1
+2019-08-02 09:47:21,463   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing view acls to: Administrator
+2019-08-02 09:47:21,469   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing modify acls to: Administrator
+2019-08-02 09:47:21,470   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing view acls groups to: 
+2019-08-02 09:47:21,470   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing modify acls groups to: 
+2019-08-02 09:47:21,471   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Administrator); groups with view permissions: Set(); users  with modify permissions: Set(Administrator); groups with modify permissions: Set()
+2019-08-02 09:47:22,838   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:47:22,850   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:47:22,857   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:47:22,869   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:47:22,877   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:47:22,884   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:47:22,896   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:47:22,912   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:47:22,931   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:47:22,949   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:47:22,966   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:47:22,978   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:47:22,988   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:47:22,999   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:47:23,006   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:47:23,015   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:47:23,034  ERROR --- [main]  org.apache.spark.SparkContext(line:91) : Error initializing SparkContext.
+java.net.BindException: Cannot assign requested address: bind: Service 'sparkDriver' failed after 16 retries (starting from 0)! Consider explicitly setting the appropriate port for the service 'sparkDriver' (for example spark.ui.port for SparkUI) to an available port or increasing spark.port.maxRetries.
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.Net.bind(Net.java:428)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:127)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:501)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1218)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:965)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:210)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2019-08-02 09:47:23,053   INFO --- [main]  org.apache.spark.SparkContext(line:54) : Successfully stopped SparkContext
+2019-08-02 09:52:24,150   INFO --- [main]  org.apache.spark.SparkContext(line:54) : Running Spark version 2.1.1
+2019-08-02 09:52:28,215   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing view acls to: Administrator
+2019-08-02 09:52:28,219   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing modify acls to: Administrator
+2019-08-02 09:52:28,221   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing view acls groups to: 
+2019-08-02 09:52:28,223   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing modify acls groups to: 
+2019-08-02 09:52:28,224   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Administrator); groups with view permissions: Set(); users  with modify permissions: Set(Administrator); groups with modify permissions: Set()
+2019-08-02 09:52:29,732   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:52:29,741   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:52:29,751   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:52:29,760   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:52:29,768   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:52:29,775   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:52:29,785   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:52:29,792   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:52:29,802   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:52:29,810   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:52:29,820   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:52:29,830   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:52:29,845   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:52:29,853   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:52:29,864   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:52:29,872   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:52:29,888  ERROR --- [main]  org.apache.spark.SparkContext(line:91) : Error initializing SparkContext.
+java.net.BindException: Cannot assign requested address: bind: Service 'sparkDriver' failed after 16 retries (starting from 0)! Consider explicitly setting the appropriate port for the service 'sparkDriver' (for example spark.ui.port for SparkUI) to an available port or increasing spark.port.maxRetries.
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.Net.bind(Net.java:428)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:127)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:501)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1218)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:965)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:210)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2019-08-02 09:52:29,896   INFO --- [main]  org.apache.spark.SparkContext(line:54) : Successfully stopped SparkContext
+2019-08-02 09:58:24,739   INFO --- [main]  org.apache.spark.SparkContext(line:54) : Running Spark version 2.1.1
+2019-08-02 09:58:36,938   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing view acls to: Administrator
+2019-08-02 09:58:36,943   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing modify acls to: Administrator
+2019-08-02 09:58:36,944   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing view acls groups to: 
+2019-08-02 09:58:36,945   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : Changing modify acls groups to: 
+2019-08-02 09:58:36,946   INFO --- [main]  org.apache.spark.SecurityManager(line:54) : SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Administrator); groups with view permissions: Set(); users  with modify permissions: Set(Administrator); groups with modify permissions: Set()
+2019-08-02 09:58:38,171   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:58:38,189   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:58:38,198   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:58:38,206   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:58:38,214   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:58:38,223   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:58:38,232   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:58:38,240   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:58:38,249   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:58:38,256   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:58:38,267   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:58:38,275   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:58:38,285   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:58:38,294   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:58:38,303   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:58:38,313   WARN --- [main]  org.apache.spark.util.Utils(line:66) : Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2019-08-02 09:58:38,328  ERROR --- [main]  org.apache.spark.SparkContext(line:91) : Error initializing SparkContext.
+java.net.BindException: Cannot assign requested address: bind: Service 'sparkDriver' failed after 16 retries (starting from 0)! Consider explicitly setting the appropriate port for the service 'sparkDriver' (for example spark.ui.port for SparkUI) to an available port or increasing spark.port.maxRetries.
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.Net.bind(Net.java:428)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:127)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:501)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1218)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:965)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:210)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2019-08-02 09:58:38,335   INFO --- [main]  org.apache.spark.SparkContext(line:54) : Successfully stopped SparkContext
+2019-08-13 14:29:34,058   WARN --- [receiver-supervisor-future-0]  org.apache.spark.streaming.receiver.ReceiverSupervisorImpl(line:87) : Restarting receiver with delay 2000 ms: Error connecting to hadoop110:9999
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at org.apache.spark.streaming.dstream.SocketReceiver.onStart(SocketInputDStream.scala:61)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor.startReceiver(ReceiverSupervisor.scala:149)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor.start(ReceiverSupervisor.scala:131)
+	at org.apache.spark.streaming.scheduler.ReceiverTracker$ReceiverTrackerEndpoint$$anonfun$9.apply(ReceiverTracker.scala:607)
+	at org.apache.spark.streaming.scheduler.ReceiverTracker$ReceiverTrackerEndpoint$$anonfun$9.apply(ReceiverTracker.scala:597)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2028)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2028)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:99)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:322)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-08-13 14:29:34,079  ERROR --- [dispatcher-event-loop-3]  org.apache.spark.streaming.scheduler.ReceiverTracker(line:70) : Deregistered receiver for stream 0: Restarting receiver with delay 2000ms: Error connecting to hadoop110:9999 - java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at org.apache.spark.streaming.dstream.SocketReceiver.onStart(SocketInputDStream.scala:61)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor.startReceiver(ReceiverSupervisor.scala:149)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor.start(ReceiverSupervisor.scala:131)
+	at org.apache.spark.streaming.scheduler.ReceiverTracker$ReceiverTrackerEndpoint$$anonfun$9.apply(ReceiverTracker.scala:607)
+	at org.apache.spark.streaming.scheduler.ReceiverTracker$ReceiverTrackerEndpoint$$anonfun$9.apply(ReceiverTracker.scala:597)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2028)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2028)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:99)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:322)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2019-08-13 14:29:37,107   WARN --- [receiver-supervisor-future-1]  org.apache.spark.streaming.receiver.ReceiverSupervisorImpl(line:87) : Restarting receiver with delay 2000 ms: Error connecting to hadoop110:9999
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at org.apache.spark.streaming.dstream.SocketReceiver.onStart(SocketInputDStream.scala:61)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor.startReceiver(ReceiverSupervisor.scala:149)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply$mcV$sp(ReceiverSupervisor.scala:198)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply(ReceiverSupervisor.scala:189)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply(ReceiverSupervisor.scala:189)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-08-13 14:29:37,111  ERROR --- [dispatcher-event-loop-2]  org.apache.spark.streaming.scheduler.ReceiverTracker(line:70) : Deregistered receiver for stream 0: Restarting receiver with delay 2000ms: Error connecting to hadoop110:9999 - java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at org.apache.spark.streaming.dstream.SocketReceiver.onStart(SocketInputDStream.scala:61)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor.startReceiver(ReceiverSupervisor.scala:149)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply$mcV$sp(ReceiverSupervisor.scala:198)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply(ReceiverSupervisor.scala:189)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor$$anonfun$restartReceiver$1.apply(ReceiverSupervisor.scala:189)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2019-08-13 14:39:52,616   WARN --- [Thread-15]  org.apache.spark.storage.RandomBlockReplicationPolicy(line:66) : Expecting 1 replicas with only 0 peer/s.
+2019-08-13 14:39:52,623   WARN --- [Thread-15]  org.apache.spark.storage.BlockManager(line:66) : Block input-0-1565678392400 replicated to only 0 peer(s) instead of 1 peers
+2019-08-13 14:39:55,803   WARN --- [Thread-15]  org.apache.spark.storage.RandomBlockReplicationPolicy(line:66) : Expecting 1 replicas with only 0 peer/s.
+2019-08-13 14:39:55,803   WARN --- [Thread-15]  org.apache.spark.storage.BlockManager(line:66) : Block input-0-1565678395600 replicated to only 0 peer(s) instead of 1 peers
+2019-08-13 14:40:01,202   WARN --- [Thread-15]  org.apache.spark.storage.RandomBlockReplicationPolicy(line:66) : Expecting 1 replicas with only 0 peer/s.
+2019-08-13 14:40:01,202   WARN --- [Thread-15]  org.apache.spark.storage.BlockManager(line:66) : Block input-0-1565678401000 replicated to only 0 peer(s) instead of 1 peers
+2019-08-13 14:40:16,403   WARN --- [Thread-15]  org.apache.spark.storage.RandomBlockReplicationPolicy(line:66) : Expecting 1 replicas with only 0 peer/s.
+2019-08-13 14:40:16,404   WARN --- [Thread-15]  org.apache.spark.storage.BlockManager(line:66) : Block input-0-1565678416200 replicated to only 0 peer(s) instead of 1 peers
+2019-08-14 11:34:59,049   WARN --- [main]  org.apache.spark.streaming.kafka010.KafkaUtils(line:66) : overriding enable.auto.commit to false for executor
+2019-08-14 11:34:59,054   WARN --- [main]  org.apache.spark.streaming.kafka010.KafkaUtils(line:66) : overriding auto.offset.reset to none for executor
+2019-08-14 11:34:59,056   WARN --- [main]  org.apache.spark.streaming.kafka010.KafkaUtils(line:66) : overriding executor group.id to spark-executor-kafka
+2019-08-14 11:34:59,057   WARN --- [main]  org.apache.spark.streaming.kafka010.KafkaUtils(line:66) : overriding receive.buffer.bytes to 65536 see KAFKA-3135
+2019-08-14 11:34:59,453  ERROR --- [main]  org.apache.spark.streaming.StreamingContext(line:91) : Error starting the context, marking it as stopped
+org.apache.kafka.common.KafkaException: Failed to construct kafka consumer
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:717)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:566)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:549)
+	at org.apache.spark.streaming.kafka010.Subscribe.onStart(ConsumerStrategy.scala:83)
+	at org.apache.spark.streaming.kafka010.DirectKafkaInputDStream.consumer(DirectKafkaInputDStream.scala:75)
+	at org.apache.spark.streaming.kafka010.DirectKafkaInputDStream.start(DirectKafkaInputDStream.scala:243)
+	at org.apache.spark.streaming.DStreamGraph$$anonfun$start$5.apply(DStreamGraph.scala:49)
+	at org.apache.spark.streaming.DStreamGraph$$anonfun$start$5.apply(DStreamGraph.scala:49)
+	at scala.collection.parallel.mutable.ParArray$ParArrayIterator.foreach_quick(ParArray.scala:143)
+	at scala.collection.parallel.mutable.ParArray$ParArrayIterator.foreach(ParArray.scala:136)
+	at scala.collection.parallel.ParIterableLike$Foreach.leaf(ParIterableLike.scala:972)
+	at scala.collection.parallel.Task$$anonfun$tryLeaf$1.apply$mcV$sp(Tasks.scala:49)
+	at scala.collection.parallel.Task$$anonfun$tryLeaf$1.apply(Tasks.scala:48)
+	at scala.collection.parallel.Task$$anonfun$tryLeaf$1.apply(Tasks.scala:48)
+	at scala.collection.parallel.Task$class.tryLeaf(Tasks.scala:51)
+	at scala.collection.parallel.ParIterableLike$Foreach.tryLeaf(ParIterableLike.scala:969)
+	at scala.collection.parallel.AdaptiveWorkStealingTasks$WrappedTask$class.compute(Tasks.scala:152)
+	at scala.collection.parallel.AdaptiveWorkStealingForkJoinTasks$WrappedTask.compute(Tasks.scala:443)
+	at scala.concurrent.forkjoin.RecursiveAction.exec(RecursiveAction.java:160)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+	at ... run in separate thread using org.apache.spark.util.ThreadUtils ... ()
+	at org.apache.spark.streaming.StreamingContext.liftedTree1$1(StreamingContext.scala:577)
+	at org.apache.spark.streaming.StreamingContext.start(StreamingContext.scala:571)
+	at com.atguigu.StreamKafka$.delayedEndpoint$com$atguigu$StreamKafka$1(StreamKafka.scala:56)
+	at com.atguigu.StreamKafka$delayedInit$body.apply(StreamKafka.scala:9)
+	at scala.Function0$class.apply$mcV$sp(Function0.scala:34)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+	at scala.App$$anonfun$main$1.apply(App.scala:76)
+	at scala.App$$anonfun$main$1.apply(App.scala:76)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:35)
+	at scala.App$class.main(App.scala:76)
+	at com.atguigu.StreamKafka$.main(StreamKafka.scala:9)
+	at com.atguigu.StreamKafka.main(StreamKafka.scala)
+Caused by: org.apache.kafka.common.KafkaException: org.codehaus.jackson.map.deser.std.StringDeserializer is not an instance of org.apache.kafka.common.serialization.Deserializer
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:205)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:637)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:566)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:549)
+	at org.apache.spark.streaming.kafka010.Subscribe.onStart(ConsumerStrategy.scala:83)
+	at org.apache.spark.streaming.kafka010.DirectKafkaInputDStream.consumer(DirectKafkaInputDStream.scala:75)
+	at org.apache.spark.streaming.kafka010.DirectKafkaInputDStream.start(DirectKafkaInputDStream.scala:243)
+	at org.apache.spark.streaming.DStreamGraph$$anonfun$start$5.apply(DStreamGraph.scala:49)
+	at org.apache.spark.streaming.DStreamGraph$$anonfun$start$5.apply(DStreamGraph.scala:49)
+	at scala.collection.parallel.mutable.ParArray$ParArrayIterator.foreach_quick(ParArray.scala:143)
+	at scala.collection.parallel.mutable.ParArray$ParArrayIterator.foreach(ParArray.scala:136)
+	at scala.collection.parallel.ParIterableLike$Foreach.leaf(ParIterableLike.scala:972)
+	at scala.collection.parallel.Task$$anonfun$tryLeaf$1.apply$mcV$sp(Tasks.scala:49)
+	at scala.collection.parallel.Task$$anonfun$tryLeaf$1.apply(Tasks.scala:48)
+	at scala.collection.parallel.Task$$anonfun$tryLeaf$1.apply(Tasks.scala:48)
+	at scala.collection.parallel.Task$class.tryLeaf(Tasks.scala:51)
+	at scala.collection.parallel.ParIterableLike$Foreach.tryLeaf(ParIterableLike.scala:969)
+	at scala.collection.parallel.AdaptiveWorkStealingTasks$WrappedTask$class.compute(Tasks.scala:152)
+	at scala.collection.parallel.AdaptiveWorkStealingForkJoinTasks$WrappedTask.compute(Tasks.scala:443)
+	at scala.concurrent.forkjoin.RecursiveAction.exec(RecursiveAction.java:160)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2019-08-14 11:37:02,907   WARN --- [main]  org.apache.spark.streaming.kafka010.KafkaUtils(line:66) : overriding enable.auto.commit to false for executor
+2019-08-14 11:37:02,912   WARN --- [main]  org.apache.spark.streaming.kafka010.KafkaUtils(line:66) : overriding auto.offset.reset to none for executor
+2019-08-14 11:37:02,913   WARN --- [main]  org.apache.spark.streaming.kafka010.KafkaUtils(line:66) : overriding executor group.id to spark-executor-kafka
+2019-08-14 11:37:02,915   WARN --- [main]  org.apache.spark.streaming.kafka010.KafkaUtils(line:66) : overriding receive.buffer.bytes to 65536 see KAFKA-3135
+2019-08-14 14:27:20,190   WARN --- [main]  org.apache.spark.streaming.kafka010.KafkaUtils(line:66) : overriding enable.auto.commit to false for executor
+2019-08-14 14:27:20,196   WARN --- [main]  org.apache.spark.streaming.kafka010.KafkaUtils(line:66) : overriding auto.offset.reset to none for executor
+2019-08-14 14:27:20,197   WARN --- [main]  org.apache.spark.streaming.kafka010.KafkaUtils(line:66) : overriding executor group.id to spark-executor-kafka
+2019-08-14 14:27:20,201   WARN --- [main]  org.apache.spark.streaming.kafka010.KafkaUtils(line:66) : overriding receive.buffer.bytes to 65536 see KAFKA-3135
