@@ -1,0 +1,42 @@
+git init 		这个目录变成可以管理的仓库
+git add readme.txt 		添加文件到暂存区
+git commit -m "提交" 	 把文件提交到仓库
+git status		查看提交的结果
+git diff readme.txt  查看文件修改的内容
+git log 	查看最近三次的提交内容
+git reset HEAD ^^^ 
+git reset HEAD n		回退到之前的版本
+git checkout -- file 可以丢弃工作区的修改
+
+远程仓库连接
+ssh-keygen rsa -C "youremail@example.com"	 创建SSH Key
+setting->SSH Keys->add ssh Key->Title->add key 		添加SHHKey
+git remote add origin "GitURL"  	把本地仓库与gitHUB关联
+git push origin master			　把本地master分支的最新修改推送到github上
+git clone https://github.com/smwcomeon/spark.git  	克隆一个本地库
+git checkout dev 	切换分支
+git branch dev 		创建dev分支
+git checkout -b dev  	新建dev分支并切换
+git merge dev 		将dev分支合并到当前所在的分支上
+git branch -d dev 		删除dev分支
+Git用<<<<<<<，=======，>>>>>>>标记出不同分支的内容，其中<<<HEAD是指主分支修改的内容，>>>>>fenzhi1 是指fenzhi1上修改的内容，
+git meger --no-ff "merge bug fix 404" issue-404
+git checkout -b dev origin/dev 		创建远程origin的dev分支到本地来
+
+将本地项目上传到Github上
+git add .
+git status
+git commit -m "ti jiao"
+在Github上创建好Git仓库之后我们就可以和本地仓库进行关联了，根据创建好的Git仓库页面的提示，可以在本地test仓库的命令行输入：
+git remote add origin gitURL
+一、如果远程仓库是空的使用：git push -u origin master
+二、如果远程仓库不是空的使用：
+$ git pull --rebase origin master
+然后再输入$ git push origin master
+等远程仓库里面有了内容之后，下次再从本地库上传内容的时候只需下面这样就可以了：
+$ git push origin master。
+
+删除GitHub上target文件夹
+1.git rm -r --cached scala-study/target
+2.git commit -m '删除了tar'
+3.git push -u origin master
